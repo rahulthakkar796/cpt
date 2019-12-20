@@ -1,0 +1,35 @@
+###
+POST http://localhost:3000/api/portfolio/update HTTP/1.1
+Content-Type: application/json
+
+{
+  "coins": [
+    {
+      "coin": "LOLETH",
+      "coinQty": 30,
+      "buyPrice": 30,
+      "buyDate": "01/21/1998",
+      "exchange": "Binance"
+    }
+  ]
+}
+
+###
+POST http://localhost:3000/api/portfolio/remove/5c911dd9322611265e3ed89a HTTP/1.1
+Content-Type: application/json
+
+{
+  "portfolioMinus": 400
+}
+
+###
+GET http://localhost:3000/api/portfolio/show HTTP/1.1
+
+###
+PATCH http://localhost:3000/api/portfolio/sell/5c911df4322611265e3ed89b HTTP/1.1
+Content-Type: application/json
+
+{
+  "portfolioMinus": 200,
+  "coinQty": 10
+}

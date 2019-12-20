@@ -1,0 +1,72 @@
+### signup-1
+POST http://localhost:3000/api/user/signup HTTP/1.1
+Content-Type: application/json
+
+{
+<<<<<<< HEAD
+  "fname": "User",
+  "lname": "One",
+  "email": "userone@gmail.com",
+  "password": "USERone111"
+=======
+  "email": "me2@me.com",
+  "fname": "Rahul",
+  "lname": "Trivedi",
+  "password": "memeLOL123"
+>>>>>>> 2968e5ef972635bb131be82c859f0f28479d69f8
+}
+
+### signup-2
+POST http://localhost:3000/api/user/signup HTTP/1.1
+Content-Type: application/json
+
+{
+  "fname": "User",
+  "lname": "Two",
+  "email": "usertwo@gmail.com",
+  "password": "USERtwo222"
+}
+
+### signin-1
+POST http://localhost:3000/api/user/signin HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "userone@gmail.com",
+  "password": "USERone111"
+}
+
+### signin-2
+POST http://localhost:3000/api/user/signin HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "usertwo@gmail.com",
+  "password": "USERtwo222"
+}
+
+###
+GET http://localhost:3000/api/user/getProfile HTTP/1.1
+
+###
+POST http://localhost:3000/api/user/feedback HTTP/1.1
+Content-Type: application/json
+
+{
+<<<<<<< HEAD
+  "feedback": "gbhjnmk"
+}
+
+###
+GET http://localhost:3000/api/user/allFeedbacks HTTP/1.1
+=======
+  "favCoins": [
+    {
+      "coin": "MEME4USD"
+    }
+  ]
+}
+
+###
+GET http://localhost:3000/api/user/getFavCoins HTTP/1.1
+>>>>>>> 2968e5ef972635bb131be82c859f0f28479d69f8

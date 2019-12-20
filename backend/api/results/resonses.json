@@ -1,0 +1,111 @@
+{
+  "userOneSignup": {
+    "msg": "Welcome User One"
+  },
+  "userTwoSignup": {
+    "msg": "Welcome User Two"
+  },
+  "userOneSignin": {
+    "msg": "ok"
+  },
+  "userOneUploadProfilePic": {
+    "updateProfilePic": {
+      "profilePic": "http://localhost:3000/uploads/2019-03-30T13:43:25.733ZScreenshotfrom2019-03-3014-43-01.png",
+      "_id": "5c9f70fa6f0ad544078381bf",
+      "email": "userone@gmail.com",
+      "fname": "User",
+      "lname": "One",
+      "password": "$2b$10$3T/C2D1YrF6ne3AjJZA3VuDB.iW7f28C3o85UqJ4XHCr67UfuEXzm",
+      "signupDate": "2019-03-30T13:36:58.687Z",
+      "__v": 0
+    }
+  },
+  "userOneGetProfile": {
+    "userProfile": {
+      "profilePic": "http://localhost:3000/uploads/2019-03-30T13:43:25.733ZScreenshotfrom2019-03-3014-43-01.png",
+      "_id": "5c9f70fa6f0ad544078381bf",
+      "email": "userone@gmail.com",
+      "fname": "User",
+      "lname": "One",
+      "signupDate": "2019-03-30T13:36:58.687Z"
+    }
+  },
+  "userOneFeedback": {
+    "msg": "feedback submitted"
+  },
+  "userTwoSignin": {
+    "msg": "ok"
+  },
+  "userTwoUploadProfilePic": {
+    "updateProfilePic": {
+      "profilePic": "http://localhost:3000/uploads/2019-03-30T13:49:03.778ZScreenshotfrom2019-03-3013-26-24.png",
+      "_id": "5c9f721ad5702744d592e875",
+      "email": "usertwo@gmail.com",
+      "fname": "User",
+      "lname": "Two",
+      "password": "$2b$10$RDDkmesixIIMk0GgOlaYp.79zt44NOuE.mBp5..bvKG8HjGQAls4a",
+      "signupDate": "2019-03-30T13:41:46.226Z",
+      "__v": 0
+    }
+  },
+  "userTwoGetProfile": {
+    "userProfile": {
+      "profilePic": "http://localhost:3000/uploads/2019-03-30T13:49:03.778ZScreenshotfrom2019-03-3013-26-24.png",
+      "_id": "5c9f721ad5702744d592e875",
+      "email": "usertwo@gmail.com",
+      "fname": "User",
+      "lname": "Two",
+      "signupDate": "2019-03-30T13:41:46.226Z"
+    }
+  },
+  "userTwoFeedback": {
+    "msg": "feedback submitted"
+  },
+  "userOnAddedETHUSD": {
+    "msg": "ETHUSD added to favourite collection"
+  },
+  "userOneFavCoins": {
+    "allFavCoins": [
+      {
+        "userEmail": "userone@gmail.com",
+        "favCoins": [
+          {
+            "_id": "5c9f766571790a4c062bfa9a",
+            "coin": "ETHUSD",
+            "fav": true
+          }
+        ]
+      }
+    ]
+  },
+  "userOneRemovedETHUSD": {
+    "msg": "ETHUSD removed from fav collection"
+  },
+  "userOneFavCoinsAgain": {
+    "allFavCoins": [
+      {
+        "userEmail": "userone@gmail.com",
+        "favCoins": []
+      }
+    ]
+  },
+  "userOneFavCoinsOnceAgain": {
+    "allFavCoins": [
+      {
+        "userEmail": "userone@gmail.com",
+        "favCoins": [
+          {
+            "_id": "5c9f771092d7074cc2ec99f9",
+            "coin": "LOLUSD",
+            "fav": true
+          },
+          {
+            "_id": "5c9f771992d7074cc2ec99fa",
+            "coin": "BTCUSD",
+            "fav": true
+          }
+        ]
+      }
+    ]
+  }
+}
